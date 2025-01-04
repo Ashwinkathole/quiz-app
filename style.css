@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+.login {
+    height: 529px;
+    width: 510px;
+    position: absolute;
+    top: 130px;
+    left: 120px;
+}
+
+.login-page {
+    display: flex;
+    gap: 50px;
+
+}
+
+.login>img {
+    height: 529px;
+    width: 510px;
+}
+
+.login-information {
+    height: 512px;
+    width: 440px;
+    position: absolute;
+    top: 200px;
+    left: 793px;
+}
+
+.login-information>h3 {
+    margin-top: 10px;
+}
+
+.login-information>input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+#login-button {
+    width: 400px;
+    display: block;
+    height: 40px;
+    padding: 12px, 24px, 12px, 24px;
+    background-color: yellow;
+    border-radius: 100px;
+    color: black;
+    border: 1px solid yellow;
+    margin-top: 20px;
+}
+#main{
+    display: flex;
+    gap:50px;
+}
+.right-side >span{
+    display: block;
+    line-height:30px;
+    font-family: inter;
+}
+.right-side >label{
+    display: block;
+    line-height: 30px;
+    margin-bottom:-10px;
+}
+.right-side>h2{
+    line-height: 20px;
+}
+.left-side {
+    height:500px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.left-side>img{
+    height:450px;
+    width:500px;
+}
+.right-side{
+    height: 500px;
+    width: 440px;
+    position: absolute;
+    top: 100px;
+    left: 793px;
+}
+.right-side>input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#signup-button{
+    width: 400px;
+    display: block;
+    height: 40px;
+    padding: 12px, 24px, 12px, 24px;
+    background-color: yellow;
+    border-radius: 100px;
+    color: black;
+    border: 1px solid yellow;
+    margin-top:15px;
+}
