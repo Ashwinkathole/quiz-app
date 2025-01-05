@@ -6,7 +6,7 @@ function signup() {
 
     const namePattern = /^[a-zA-Z]+([ '-][a-zA-Z]+)*$/;
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const passwordPattern=/^(?=.[A-Z])(?=.[a-z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
+    // const passwordPattern=/^[A-Za-z@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
 
     if (!name) {
         alert("please enter your full name");
@@ -28,9 +28,10 @@ function signup() {
         alert("please enter password");
         return;
     }
-    if(!passwordPattern.test(password)){
-        alert("please enter valid password");
+    if(!password.length<8){
+        alert("please create valid password");
         return;
     }
+    
 }
 
